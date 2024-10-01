@@ -5,6 +5,10 @@
     font-family: 'Public Sans';
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 ul{
     list-style: none;
 }
@@ -156,7 +160,13 @@ section h1{
 
 #footer a{
     color: white;
-    
+}
+
+#footer .social{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 20px;
+
 }
 
 #footer p{
