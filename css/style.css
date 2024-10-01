@@ -35,4 +35,146 @@ button{
     color: white;
     padding: 10px 22px;
     border-radius: 50px;
+    cursor: pointer;
 }
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F4F6;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+main div{
+    width: 40%;
+}
+
+main h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+main p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+main img{
+    width: 50%;
+}
+
+#about{
+    padding: 100px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+
+.items p{
+    line-height: 1.6;
+}
+
+section h1{
+    font-size: 45px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+#about .top{
+    width: 45%;
+    margin-bottom: 65px;
+}
+
+.items h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#articles{
+    padding: 30px 100px;
+    background-color: #F3F4F6;
+    
+}
+
+#articles .left {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 50px 0;
+}
+
+#articles h1{
+    color: #A29CA6;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#articles .left div{
+    box-shadow: 0px 0px 7px rgb(185, 185, 185);
+}
+
+#articles .left div h3, #articles .left div a, #articles .left div p{
+    padding:0 20px;
+}
+
+#articles .left div h3{
+    padding-top:20px;
+}
+
+#articles .left div p{
+    padding-bottom:20px;
+}
+
+#articles img{
+    width: 100%;
+}
+
+#articles h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#articles a{
+    margin: 10px 0;
+    display: block;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: #2D314D;
+}
+
+#footer a{
+    color: white;
+    
+}
+
+#footer p{
+    margin: 30px 0;
+    color: white;
+}
+
+#footer img{
+    filter: invert(0.3);
+}
+
+#footer .center{
+    display: flex;
+    gap: 70px;
+}
+
+#footer .center li{
+    margin: 10px;
+}
+
+
