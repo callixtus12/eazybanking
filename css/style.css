@@ -189,6 +189,11 @@ section p{
 #footer .center li{
     margin: 10px;
 }
+
+.toggler{
+    display: none;
+}
+
 @media screen and (max-width:992px) {
     nav, main, section, footer{
         padding: 30px 60px;
@@ -319,13 +324,15 @@ section p{
         gap: 30px;
         flex-direction: column;
         position: fixed;
-        top: 30%;
-        left: 35%;
-        padding: 20px 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px 30px;
         border-radius: 8px;
-        width: 30%;
+        width: 60%;
         text-align: center;
-        background-color: rgb(204, 198, 198);
+        transition: .5s;
+        background-color: rgb(236, 229, 229);
     }
 
     .toggler{
