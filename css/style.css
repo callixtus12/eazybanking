@@ -25,7 +25,7 @@ nav {
 }
 
 nav a{
-    color: gray;
+    color: black;
 }
 
 nav ul {
@@ -189,9 +189,6 @@ section p{
 #footer .center li{
     margin: 10px;
 }
-
-
-
 @media screen and (max-width:992px) {
     nav, main, section, footer{
         padding: 30px 60px;
@@ -320,6 +317,19 @@ section p{
 
     nav ul{
         gap: 30px;
+        flex-direction: column;
+        position: fixed;
+        top: 30%;
+        left: 35%;
+        padding: 20px 30px;
+        border-radius: 8px;
+        width: 30%;
+        text-align: center;
+        background-color: rgb(204, 198, 198);
+    }
+
+    .toggler{
+        display: block;
     }
 
     main{
