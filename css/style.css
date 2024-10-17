@@ -6,6 +6,8 @@
 }
 
 html, body{
+    /* width: 1400px; */
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -17,18 +19,18 @@ a{
     text-decoration: none;
 }
 
-nav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 100px;
 }
 
-nav a{
+.navbar a{
     color: black;
 }
 
-nav ul {
+.navbar ul {
     display: flex;
     gap: 70px;
 }
@@ -195,11 +197,11 @@ section p{
 }
 
 @media screen and (max-width:992px) {
-    nav, main, section, footer{
+    .navbar, main, section, footer{
         padding: 30px 60px;
     }
 
-    nav ul{
+    .navbar ul{
         gap: 30px;
         font-size: 80%;
     }
@@ -253,7 +255,7 @@ section p{
 }
 
 @media screen and (max-width:768px) {
-    nav, main, section, footer{
+    .navbar, main, section, footer{
         padding: 30px 30px;
     }
 
@@ -316,15 +318,15 @@ section p{
 }
 
 @media screen and (max-width:576px) {
-    nav, main, section, footer{
+    .navbar, main, section, footer{
         padding: 30px 20px;
     }
 
-    nav ul{
+    .navbar ul{
         gap: 30px;
         flex-direction: column;
         position: fixed;
-        top: 50%;
+        top: -50%;
         left: 50%;
         transform: translate(-50%, -50%);
         padding: 30px 30px;
@@ -337,6 +339,11 @@ section p{
 
     .toggler{
         display: block;
+        font-size: 22px;
+    }
+
+    .ri-close-line{
+        display: none;
     }
 
     main{
@@ -361,7 +368,7 @@ section p{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    nav button{
+    .navbar button{
         display: none;
     }
 

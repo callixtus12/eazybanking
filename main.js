@@ -1,6 +1,6 @@
 const menu = document.querySelector(".ri-menu-line")
 const close = document.querySelector(".ri-close-line")
-const nav = document.querySelector("nav ul")
+const nav = document.querySelector(".navbar ul")
 
 menu.addEventListener('click', ()=>{
     nav.style.top = '30%'
